@@ -1,0 +1,56 @@
+ML deployment
+
+1. What is deployment? 
+'use' if for something - use a model
+
+Build a model
+
+100 COLS - 99 Xs and 1 y
+25 Xs and 1 y - trained with this 
+
+1. ETL - 
+2. preprocessing - 
+3. EDA -
+-----------------
+4. Features - e.g., PCA or Lda may take some time
+5. pick algos
+6. baseline
+7. pick a model
+8. test and tune as needed
+-----------------
+9. deployment
+
+1. Entanglement 
+2. Data dependency
+3. Configuration
+4. Data and Feature prep
+5. Detecting Model Errors
+6. Seperation of expertise - working in teams
+
+
+4 patterns for deployment
+1. REST API - flask (expample) - batch, preds
+are on the fly
+
+*Older 2. Shared DB - batch, super high latency
+
+3. Streaming - streaming data, message que (ingestion pipline), preds are streamed -
+hig maintenance - super costly (relevant to proj size)
+
+4. Mobile (app) - streaming, preds on the fly,
+processed on a device
+
+*older 5. PMML - pred modelling markup language 
+
+
+Web application development
+
+what is flask?
+micro framework
+
+why?
+not a backedn service 
+nothing new in flask 
+well used 
+
+
